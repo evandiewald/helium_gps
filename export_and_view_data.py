@@ -4,7 +4,7 @@ import gmplot
 
 conn = http.client.HTTPSConnection('api.pipedream.com')
 conn.request("GET", '/v1/sources/dc_YGulKQ/event_summaries?expand=event', '', {
-  'Authorization': 'Bearer c968c4dc5acdc9d9785a84222793e2d8',
+  'Authorization': 'Bearer FILL_ME_IN',
 })
 
 res = conn.getresponse()
